@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <script type="text/javascript" src="./index.js"></script>
+    <title>8bag</title>
+    <style>
+        .box {
+            overflow-wrap: break-word;
+            word-wrap: break-word;
+            height: 20em;
+            overflow: scroll;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>8bag example</h1>
+        <div>
+            <h2>Stats</h2>
+            <div id="stats"></div>
+        </div>
+        <div><button id="run">Run</button></div>
+        <div>
+            <h2>8 bags（かき混ぜ後。右端が次の8bagに含まれる）</h2>
+            <div id="8bags" class="box"></div>
+        </div>
+        <div>
+            <h2>List</h2>
+            <div id="list" class="box"></div>
+        </div>
+    </main>
+</body>
+
+</html>
